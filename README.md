@@ -18,23 +18,41 @@ vercel
 # Ikut arahan, tekan Enter untuk default settings
 # Deploy production:
 vercel --prod
-Method 2: Guna Vercel Dashboard (Lebih Mudah)
+
+#Method 2: Guna Vercel Dashboard (Lebih Mudah)
+
 Push ke GitHub:
+
 git init
+
 git add .
+
 git commit -m "Initial commit"
+
 git branch -M main
+
 git remote add origin https://github.com/USERNAME/REPO.git
+
 git push -u origin main
+
 Deploy dari Vercel:
+
 Pergi https://vercel.com
+
 Click "Add New Project"
+
 Import dari GitHub
+
 Pilih repo anda
+
 Settings akan auto-detect (Vite)
+
 Click "Deploy"
+
 Done! - Dapat URL seperti: https://your-app.vercel.app
-📁 Struktur Folder Lengkap:
+
+#📁 Struktur Folder Lengkap:
+
 m3u-editor-pro/
 ├── index.html
 ├── package.json
@@ -47,7 +65,8 @@ m3u-editor-pro/
 │   └── index.css
 └── public/
     └── favicon.svg (optional)
-⚡ Tips:
+
+#⚡ Tips:
 Custom Domain: Boleh add custom domain dalam Vercel dashboard
 Auto Deploy: Setiap push ke GitHub = auto deploy
 Preview: Setiap branch dapat preview URL
